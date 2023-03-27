@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+}
+
+.inline-form * {
+  display: inline-block;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/popup.css" type="text/css" />
+    <script src="../js/popup.js" defer></script>
+    <title>GPT Status</title>
+  </head>
+  <body>
+    <div class="bg-div">
+      <div class="main-container">
+        <div class="jumbotron shadow" id="jumbotron">
+          <img
+            src="/icons/feather/refresh-cw.svg"
+            alt="refresh"
+            id="refreshIcon" />
+          <div class="inline">
+            <h1 class="title" id="title">Chat GPT is fully operational.</h1>
+            <div
+              data-tooltip="This result is obtained from the OpenAI API's last update.">
+              <img
+                src="/icons/feather/help-circle.svg"
+                id="infoIcon"
+                alt="info" />
+            </div>
+          </div>
+          <p id="lastUpdate">Last update:</p>
+          <p id="source">
+            Via <a href="https://status.openai.com/">status.openai.com</a>
+          </p>
+        </div>
+        <div class="horizontal-container">
+          <div class="bottom-left shadow">
+            <p id="otherStatus">All OpenAI services are running.</p>
+          </div>
+          <div class="bottom-right shadow">
+            <h2>More info</h2>
+            <ul>
+              <li>
+                <a href="https://status.openai.com/">OpenAI status</a>
+              </li>
+              <li>
+                <a href="https://downforeveryoneorjustme.com/chatgpt">
+                  Is it just me?
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>GPT Status by Zev Ross</p>
+        <a href="options.html" class="options-link" target="_blank">
+          <img
+            src="/icons/feather/settings.svg"
+            alt="settings"
+            id="settingsIcon"
+            data-tooltop="Settings" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
